@@ -1,25 +1,88 @@
 {
   "regulations": [
-  {
-    "name": "الحضور للعمل متاخر",
-    "regulation_class_id": 1,
-    "is_affect_attendance": 1,
-    "affection_type": 1,
-    "time": 10,
-    "affection_degree": [
-      {
-        "name": "اول مرة",
-        "value": 0.5
-      },
-      {
-        "name": "ثاني مرة",
-        "value": 1
-      },
-      {
-        "name": "ثالث مرة",
-        "value": 1.25
-      }
-    ]
-  }
+    {
+      name: 'الحضور للعمل متاخر',
+      regulation_class: 'مخالفات تتعلق بمواعيد العمل',
+      is_affect_attendance: 1,
+      affection_type: 'delay',
+      time: 15,
+      affection_degree: [
+        {
+          name: 'اول مرة',
+          value: 0.5
+        },
+        {
+          name: 'ثاني مرة',
+          value: 1
+        },
+        {
+          name: 'ثالث مرة',
+          value: 1.25
+        }
+      ]
+    },
+    {
+      name: 'البقاء في مكان العمل بعد انتهاء موعد العمل ',
+      regulation_class: 'مخالفات تتعلق بمواعيد العمل',
+      is_affect_attendance: 1,
+      affection_type: 'delay',
+      time: 15,
+      affection_degree: [
+        {
+          name: 'اول مرة',
+          value: 0.5
+        },
+        {
+          name: 'ثاني مرة',
+          value: 1
+        },
+        {
+          name: 'ثالث مرة',
+          value: 1.25
+        }
+      ]
+    },
+    {
+      name: 'انقطاع عن العمل بدون اذن',
+      regulation_class: 'مخالفات تتعلق بمواعيد العمل',
+      is_affect_attendance: 0,
+      affection_type: '',
+      time: null,
+      affection_degree: [
+        {
+          name: 'اول مرة',
+          value: 0.25
+        },
+        {
+          name: 'ثاني مرة',
+          value: 0.5
+        },
+        {
+          name: 'ثالث مرة',
+          value: 1
+        }
+      ]
+    },
+    {
+      name: 'ترك العمل قبل الموعد المحدد بدون اذن',
+      regulation_class: 'مخالفات تتعلق بمواعيد العمل',
+      is_affect_attendance: 0,
+      affection_type: '',
+      time: null,
+      affection_degree: [
+        {
+          name: 'اول مرة',
+          value: 0.5
+        },
+        {
+          name: 'ثاني مرة',
+          value: 1
+        },
+        {
+          name: 'ثالث مرة',
+          value: 2
+        }
+      ]
+    }
   ]
 }
