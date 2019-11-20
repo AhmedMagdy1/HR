@@ -1,2 +1,2 @@
 # HR
-Hr Apis
+Hr Apis for client side
