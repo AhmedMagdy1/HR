@@ -1,92 +1,92 @@
 {
-  "regulations": { 
+  "regulations": {
     "current_page": 1,
     "data": [
-    {
-      "name": "الحضور للعمل متاخر",
-      "regulation_class": "مخالفات تتعلق بمواعيد العمل",
-      "is_affect_attendance": 1,
-      "affection_type": "delay",
-      "time": 15,
-      "affection_degree": [
-        {
-          "name": "اول مرة",
-          "value": 0.5
-        },
-        {
-          "name": "ثاني مرة",
-          "value": 1
-        },
-        {
-          "name": "ثالث مرة",
-          "value": 1.25
-        }
-      ]
-    },
-    {
-      "name": "البقاء في مكان العمل بعد انتهاء موعد العمل ",
-      "regulation_class": "مخالفات تتعلق بمواعيد العمل",
-      "is_affect_attendance": 1,
-      "affection_type": "delay",
-      "time": 15,
-      "affection_degree": [
-        {
-          "name": "اول مرة",
-          "value": 0.5
-        },
-        {
-          "name": "ثاني مرة",
-          "value": 1
-        },
-        {
-          "name": "ثالث مرة",
-          "value": 1.25
-        }
-      ]
-    },
-    {
-      "name": "انقطاع عن العمل بدون اذن",
-      "regulation_class": "مخالفات تتعلق بمواعيد العمل",
-      "is_affect_attendance": 0,
-      "affection_type": "",
-      "time": null,
-      "affection_degree": [
-        {
-          "name": "اول مرة",
-          "value": 0.25
-        },
-        {
-          "name": "ثاني مرة",
-          "value": 0.5
-        },
-        {
-          "name": "ثالث مرة",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "ترك العمل قبل الموعد المحدد بدون اذن",
-      "regulation_class": "مخالفات تتعلق بمواعيد العمل",
-      "is_affect_attendance": 0,
-      "affection_type": "",
-      "time": null,
-      "affection_degree": [
-        {
-          "name": "اول مرة",
-          "value": 0.5
-        },
-        {
-          "name": "ثاني مرة",
-          "value": 1
-        },
-        {
-          "name": "ثالث مرة",
-          "value": 2
-        }
-      ]
-    }
-  ],
+      {
+        "name": "الحضور للعمل متاخر",
+        "regulation_class": "مخالفات تتعلق بمواعيد العمل",
+        "is_affect_attendance": 1,
+        "affection_type": "delay",
+        "time": 15,
+        "affection_degree": [
+          {
+            "name": "اول مرة",
+            "value": 0.5
+          },
+          {
+            "name": "ثاني مرة",
+            "value": 1
+          },
+          {
+            "name": "ثالث مرة",
+            "value": 1.25
+          }
+        ]
+      },
+      {
+        "name": "البقاء في مكان العمل بعد انتهاء موعد العمل ",
+        "regulation_class": "مخالفات تتعلق بمواعيد العمل",
+        "is_affect_attendance": 1,
+        "affection_type": "delay",
+        "time": 15,
+        "affection_degree": [
+          {
+            "name": "اول مرة",
+            "value": 0.5
+          },
+          {
+            "name": "ثاني مرة",
+            "value": 1
+          },
+          {
+            "name": "ثالث مرة",
+            "value": 1.25
+          }
+        ]
+      },
+      {
+        "name": "انقطاع عن العمل بدون اذن",
+        "regulation_class": "مخالفات تتعلق بمواعيد العمل",
+        "is_affect_attendance": 0,
+        "affection_type": "",
+        "time": null,
+        "affection_degree": [
+          {
+            "name": "اول مرة",
+            "value": 0.25
+          },
+          {
+            "name": "ثاني مرة",
+            "value": 0.5
+          },
+          {
+            "name": "ثالث مرة",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "ترك العمل قبل الموعد المحدد بدون اذن",
+        "regulation_class": "مخالفات تتعلق بمواعيد العمل",
+        "is_affect_attendance": 0,
+        "affection_type": "",
+        "time": null,
+        "affection_degree": [
+          {
+            "name": "اول مرة",
+            "value": 0.5
+          },
+          {
+            "name": "ثاني مرة",
+            "value": 1
+          },
+          {
+            "name": "ثالث مرة",
+            "value": 2
+          }
+        ]
+      }
+    ],
     "first_page_url": "https://my-json-server.typicode.com/AhmedMagdy1/HR/regulations?page=1",
     "from": 1,
     "last_page": 1,
@@ -96,7 +96,6 @@
     "per_page": 10,
     "prev_page_url": null,
     "to": 7,
-    "total": 7,
-    }
-  
+    "total": 7
+  }
 }
