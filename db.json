@@ -3,6 +3,7 @@
     "current_page": 1,
     "data": [
       {
+        "id": 1,
         "name": "الحضور للعمل متاخر",
         "regulation_class_id": 1,
         "regulation_class": { "id": 1, "name" :"مخالفات تتعلق بمواعيد العمل" },
@@ -25,6 +26,7 @@
         ]
       },
       {
+        "id": 2,
         "name": "البقاء في مكان العمل بعد انتهاء موعد العمل ",
         "regulation_class_id": 1,
         "regulation_class": { "id": 1, "name" :"مخالفات تتعلق بمواعيد العمل" },
@@ -47,6 +49,7 @@
         ]
       },
       {
+        "id": 3,
         "name": "انقطاع عن العمل بدون اذن",
         "regulation_class_id": 1,
         "regulation_class": { "id": 1, "name" :"مخالفات تتعلق بمواعيد العمل" },
@@ -69,6 +72,7 @@
         ]
       },
       {
+        "id": 4,
         "name": "ترك العمل قبل الموعد المحدد بدون اذن",
         "regulation_class_id": 1,
         "regulation_class": { "id": 1, "name" :"مخالفات تتعلق بمواعيد العمل" },
